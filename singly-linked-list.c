@@ -6,12 +6,12 @@
 #define MAX_EXPRESSION_SIZE 20
 
 typedef enum{
-   lparen = 0,  //왼쪽 괄호 
-   rparen = 9,  //오른쪽 괄호
-   times = 7,   //곱셈
-   divide = 6,  //나눗셈
-   plus = 5,    //덧셈
-   minus = 4,   //뺄셈
+   lparen = 0, //왼쪽 괄호 
+   rparen = 9, //오른쪽 괄호
+   times = 7, //곱셈
+   divide = 6, //나눗셈
+   plus = 5, //덧셈
+   minus = 4, //뺄셈
    operand = 1 //피연산자
 } precedence;
 
